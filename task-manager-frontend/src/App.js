@@ -5,6 +5,7 @@ import SignupForm from './SignupForm';
 import NotesList from './NotesList';
 import {nanoid} from "nanoid";
 import Header from './Header';
+import Note from './Note'
 
 
 
@@ -26,7 +27,8 @@ function App() {
                     <Route path="/login" element={<LoginForm />} />
                     <Route path="/signup" element={<SignupForm />} />
                     <Route path="/notes" element={<NotesList />} /> {/* Added NotesList Route */}
-                    
+                    <Route path="/note" element={<Note />} /> {/* Added NotesList Route */}
+
                     
                     
 
